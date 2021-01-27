@@ -234,8 +234,9 @@ namespace DannyT.OrchardCoreMigrator
 
         private void UpdatePermalinks()
         {
-            SlugHelper.Config slugConfig = new SlugHelper.Config();
-            // remove question marks from titles (default replaces with dash)
+            // SlugHelper.Config slugConfig = new SlugHelper.Config();
+            var slugConfig = new SlugHelperConfiguration();
+            // 从标题中删除问号（默认用破折号代替）
             slugConfig.StringReplacements.Add("?", "");
             SlugHelper helper = new SlugHelper();
 
