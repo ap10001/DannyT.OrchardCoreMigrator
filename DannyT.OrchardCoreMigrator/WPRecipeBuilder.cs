@@ -5,7 +5,6 @@ using System.Linq;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.IO;
-using Html2Markdown;
 using System.IO.Compression;
 using System.Net;
 using DannyT.OrchardCoreMigrator.ContentBuilders;
